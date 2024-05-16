@@ -1,0 +1,7 @@
+/* custom.css */
+
+/* Sidebar text color */
+div[data-testid="st.sidebar"] div div div div {
+    color: #000; /* Change to your desired text color */
+    background-color: blue;
+}
