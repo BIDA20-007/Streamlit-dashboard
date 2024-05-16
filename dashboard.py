@@ -7,6 +7,8 @@ import base64
 import pydeck as pdk
 import time 
 import requests
+import warnings
+warnings.filterwarnings('ignore')
 
 # Function to fetch data from the API
 def fetch_api_data(url):
