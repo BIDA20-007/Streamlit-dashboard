@@ -58,7 +58,7 @@ kpi_card_style = """
       padding: 20px;
       border-radius: 10px;
       box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-      width: 250px;
+      width: 200px;
       height: 150px;
       margin-bottom: 20px;
 """
@@ -234,7 +234,7 @@ with col4:
 
 # Update layout to adjust the size and add title
  fig_user_agents.update_layout(
-    width=500,  # Adjust width
+    width=470,  # Adjust width
     height=400,  # Adjust height
     title={'text': "User Agents", 'font': {'size': 16}, 'x': 0.5, 'y': 0.95, 'xanchor': 'center', 'yanchor': 'top', 'xref': 'paper'}
   )
@@ -254,7 +254,7 @@ with col5:
                     values='UserID', 
                     title='Device Usage Breakdown')
  # Resize the pie chart
- fig_device.update_layout(width=500, height=400)  # Adjust width and height as needed
+ fig_device.update_layout(width=470, height=400)  # Adjust width and height as needed
 
 
 # Display the pie chart in Streamlit
