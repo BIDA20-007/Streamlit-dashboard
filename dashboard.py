@@ -61,11 +61,12 @@ if not st.session_state['login']:
         """
         <div style="text-align: center;">
             <img src ="https://cdn.icon-icons.com/icons2/2699/PNG/512/google_analytics_logo_icon_171061.png" width="200" height="200" >
-            <h1 style="margin-top: 20px;">Login</h1>
+            <h1 style="margin-top: 20px;">Fun Olympic Games</h1>
         </div>
         """,
         unsafe_allow_html=True
     )
+    st.title("Login")
     username = st.text_input("Username")
     password = st.text_input("Password", type="password")
     if st.button("Login"):
