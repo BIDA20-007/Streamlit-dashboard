@@ -267,15 +267,15 @@ else:
              #   st.write(pd.DataFrame(api_data))
         
         # Or, you can add a separate button to trigger API data fetching:
-        if st.button("Fetch Data from API"):
+        #if st.button("Fetch Data from API"):
             # Fetch data from the API
-            api_data = fetch_api_data(api_url)
+         #   api_data = fetch_api_data(api_url)
         
             # Check if data is fetched successfully
-            if api_data:
+          #  if api_data:
                 # Display fetched data
-                st.write("Data Fetched from API:")
-                st.write(pd.DataFrame(api_data))
+           #     st.write("Data Fetched from API:")
+            #    st.write(pd.DataFrame(api_data))
         
         # Define the rest of your Streamlit app components...
 
